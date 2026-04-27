@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="520" viewBox="0 0 1100 520">
+  <rect width="1100" height="520" fill="#f8fafc"/>
+  <text x="550" y="48" text-anchor="middle" font-size="28" font-family="Arial, sans-serif" font-weight="700" fill="#0f172a">小白安装顺序：不要跳步</text>
+  <defs><marker id="a" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto"><path d="M2,2 L10,6 L2,10 Z" fill="#2563eb"/></marker></defs>
+  <g font-family="Arial, sans-serif" font-size="17" fill="#0f172a">
+    <g transform="translate(70,105)"><circle cx="45" cy="45" r="42" fill="#bfdbfe" stroke="#2563eb" stroke-width="3"/><text x="45" y="53" text-anchor="middle" font-size="28" font-weight="700">1</text><text x="45" y="115" text-anchor="middle">安装 VSCode</text></g>
+    <g transform="translate(265,105)"><circle cx="45" cy="45" r="42" fill="#c7d2fe" stroke="#4f46e5" stroke-width="3"/><text x="45" y="53" text-anchor="middle" font-size="28" font-weight="700">2</text><text x="45" y="115" text-anchor="middle">安装 Copilot</text></g>
+    <g transform="translate(460,105)"><circle cx="45" cy="45" r="42" fill="#bbf7d0" stroke="#16a34a" stroke-width="3"/><text x="45" y="53" text-anchor="middle" font-size="28" font-weight="700">3</text><text x="45" y="115" text-anchor="middle">安装 OAI 插件</text></g>
+    <g transform="translate(655,105)"><circle cx="45" cy="45" r="42" fill="#fde68a" stroke="#d97706" stroke-width="3"/><text x="45" y="53" text-anchor="middle" font-size="28" font-weight="700">4</text><text x="45" y="115" text-anchor="middle">安装 CPA</text></g>
+    <g transform="translate(850,105)"><circle cx="45" cy="45" r="42" fill="#fecaca" stroke="#dc2626" stroke-width="3"/><text x="45" y="53" text-anchor="middle" font-size="28" font-weight="700">5</text><text x="45" y="115" text-anchor="middle">配置 VSCode</text></g>
+  </g>
+  <g stroke="#2563eb" stroke-width="4" marker-end="url(#a)"><line x1="160" y1="150" x2="260" y2="150"/><line x1="355" y1="150" x2="455" y2="150"/><line x1="550" y1="150" x2="650" y2="150"/><line x1="745" y1="150" x2="845" y2="150"/></g>
+  <rect x="95" y="300" width="910" height="145" rx="18" fill="#ffffff" stroke="#94a3b8" stroke-width="2"/>
+  <text x="550" y="340" text-anchor="middle" font-family="Arial, sans-serif" font-size="22" font-weight="700" fill="#0f172a">判断是否成功的核心标准</text>
+  <text x="550" y="380" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" fill="#334155">1）CPA 的 /v1/models 能返回 JSON</text>
+  <text x="550" y="412" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" fill="#334155">2）VSCode Copilot Chat 能看到 OAI Compatible 模型</text>
+  <text x="550" y="444" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" fill="#334155">3）选择该模型后，能解释代码 / 写代码 / 修 bug</text>
+</svg>

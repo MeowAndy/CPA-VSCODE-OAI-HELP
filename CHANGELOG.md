@@ -1,5 +1,22 @@
 # 更新日志
 
+## cpa-vscode-oai-0.0.2 - 2026-04-27
+
+### 新增
+
+- 新增 `images/` 配图目录，加入 5 张自制 SVG 配图：
+  - `01-architecture.svg`：CPA + VSCode + OAI 插件整体链路；
+  - `02-install-flow.svg`：小白安装顺序；
+  - `03-oai-config.svg`：OAI Provider 连接 CPA 的关键配置；
+  - `04-model-picker.svg`：Copilot Chat 选择 OAI / CPA 模型流程；
+  - `05-troubleshooting.svg`：常见问题排错顺序。
+- README 新增“配图速览：先看图再操作”章节。
+- README 增加知乎参考教程链接。
+
+### 说明
+
+- 用户提供的知乎页面当前对自动抓取返回 403，无法稳定获取原图；为避免误搬不可确认授权的图片，本仓库采用自制配图并保留原文链接。
+
 ## cpa-vscode-oai-0.0.1 - 2026-04-27
 
 ### 新增

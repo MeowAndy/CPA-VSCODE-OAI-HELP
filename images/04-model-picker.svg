@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="560" viewBox="0 0 1100 560">
+  <rect width="1100" height="560" fill="#f0fdf4"/>
+  <text x="550" y="45" text-anchor="middle" font-size="28" font-family="Arial, sans-serif" font-weight="700" fill="#14532d">在 Copilot Chat 里选择 OAI / CPA 模型</text>
+  <rect x="130" y="90" width="840" height="380" rx="24" fill="#ffffff" stroke="#22c55e" stroke-width="3"/>
+  <rect x="170" y="135" width="760" height="60" rx="14" fill="#dcfce7" stroke="#86efac"/>
+  <text x="200" y="172" font-family="Arial, sans-serif" font-size="20" fill="#14532d">1. 打开 Copilot Chat</text>
+  <rect x="170" y="215" width="760" height="60" rx="14" fill="#dcfce7" stroke="#86efac"/>
+  <text x="200" y="252" font-family="Arial, sans-serif" font-size="20" fill="#14532d">2. 点击模型选择器 → Manage Models...</text>
+  <rect x="170" y="295" width="760" height="60" rx="14" fill="#dcfce7" stroke="#86efac"/>
+  <text x="200" y="332" font-family="Arial, sans-serif" font-size="20" fill="#14532d">3. 选择 OAI Compatible Provider</text>
+  <rect x="170" y="375" width="760" height="60" rx="14" fill="#bbf7d0" stroke="#22c55e"/>
+  <text x="200" y="412" font-family="Arial, sans-serif" font-size="20" fill="#14532d">4. 勾选你配置的模型，例如：CPA Claude Sonnet</text>
+  <text x="550" y="520" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" fill="#166534">看不到模型时，优先检查：OAI 插件配置、/v1/models 返回、API Key 是否一致</text>
+</svg>

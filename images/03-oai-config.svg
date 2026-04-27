@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="620" viewBox="0 0 1100 620">
+  <rect width="1100" height="620" fill="#eef2ff"/>
+  <text x="550" y="45" text-anchor="middle" font-size="28" font-family="Arial, sans-serif" font-weight="700" fill="#312e81">OAI 插件里这样填 CPA</text>
+  <rect x="120" y="80" width="860" height="465" rx="22" fill="#fff" stroke="#6366f1" stroke-width="3"/>
+  <text x="165" y="130" font-size="24" font-family="Arial, sans-serif" font-weight="700" fill="#312e81">Add Provider</text>
+  <g font-family="Arial, sans-serif" font-size="18" fill="#111827">
+    <text x="170" y="185">Provider ID</text><rect x="390" y="160" width="420" height="38" rx="8" fill="#f8fafc" stroke="#cbd5e1"/><text x="410" y="186" fill="#0f172a">cpa</text>
+    <text x="170" y="245">Base URL</text><rect x="390" y="220" width="420" height="38" rx="8" fill="#f8fafc" stroke="#cbd5e1"/><text x="410" y="246" fill="#0f172a">http://localhost:8317/v1</text>
+    <text x="170" y="305">API Key</text><rect x="390" y="280" width="420" height="38" rx="8" fill="#f8fafc" stroke="#cbd5e1"/><text x="410" y="306" fill="#0f172a">cpa-local-key</text>
+    <text x="170" y="365">API Mode</text><rect x="390" y="340" width="420" height="38" rx="8" fill="#f8fafc" stroke="#cbd5e1"/><text x="410" y="366" fill="#0f172a">openai</text>
+  </g>
+  <rect x="650" y="425" width="160" height="50" rx="12" fill="#4f46e5"/><text x="730" y="457" text-anchor="middle" font-size="20" font-family="Arial, sans-serif" fill="#fff" font-weight="700">Save</text>
+  <text x="550" y="585" text-anchor="middle" font-size="18" font-family="Arial, sans-serif" fill="#312e81">重点：Base URL 要带 /v1，API Key 要和 CPA config.yaml 里的 api-keys 完全一致</text>
+</svg>

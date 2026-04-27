@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="650" viewBox="0 0 1100 650">
+  <rect width="1100" height="650" fill="#fef2f2"/>
+  <text x="550" y="45" text-anchor="middle" font-size="28" font-family="Arial, sans-serif" font-weight="700" fill="#7f1d1d">出错时按这个顺序排查</text>
+  <defs><marker id="arr" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto"><path d="M2,2 L10,6 L2,10 Z" fill="#dc2626"/></marker></defs>
+  <g font-family="Arial, sans-serif" font-size="18" fill="#7f1d1d">
+    <rect x="330" y="90" width="440" height="65" rx="14" fill="#fff" stroke="#f87171" stroke-width="2"/><text x="550" y="130" text-anchor="middle">问题：VSCode 里 OAI 模型不能用</text>
+    <line x1="550" y1="155" x2="550" y2="205" stroke="#dc2626" stroke-width="4" marker-end="url(#arr)"/>
+    <rect x="285" y="205" width="530" height="65" rx="14" fill="#fee2e2" stroke="#ef4444" stroke-width="2"/><text x="550" y="245" text-anchor="middle">1. CPA 是否正在运行？窗口有没有关？</text>
+    <line x1="550" y1="270" x2="550" y2="320" stroke="#dc2626" stroke-width="4" marker-end="url(#arr)"/>
+    <rect x="285" y="320" width="530" height="65" rx="14" fill="#fee2e2" stroke="#ef4444" stroke-width="2"/><text x="550" y="360" text-anchor="middle">2. /v1/models 是否能返回 JSON？</text>
+    <line x1="550" y1="385" x2="550" y2="435" stroke="#dc2626" stroke-width="4" marker-end="url(#arr)"/>
+    <rect x="285" y="435" width="530" height="65" rx="14" fill="#fee2e2" stroke="#ef4444" stroke-width="2"/><text x="550" y="475" text-anchor="middle">3. API Key 是否和 cpa config.yaml 一样？</text>
+    <line x1="550" y1="500" x2="550" y2="550" stroke="#dc2626" stroke-width="4" marker-end="url(#arr)"/>
+    <rect x="285" y="550" width="530" height="65" rx="14" fill="#fecaca" stroke="#dc2626" stroke-width="2"/><text x="550" y="590" text-anchor="middle">4. Model ID 是否从 /v1/models 复制？Base URL 是否带 /v1？</text>
+  </g>
+</svg>

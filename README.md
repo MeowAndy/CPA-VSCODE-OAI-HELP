@@ -11,6 +11,34 @@
 - 不默认你懂 `baseUrl`；
 - 每一步都会写：点哪里、填什么、看到什么算成功、失败怎么办。
 
+
+---
+
+## 配图速览：先看图再操作 🖼️
+
+> 用户提供的知乎参考文：<https://zhuanlan.zhihu.com/p/1951238505524093197>  
+> 说明：该页面当前对自动抓取返回 403，无法稳定获取原图；为避免误搬不可确认授权的图片，本仓库改为放置自制配图，并保留原文链接作为参考。
+
+### 1）整体链路图
+
+![CPA + VSCode + OAI 插件整体链路](images/01-architecture.svg)
+
+### 2）安装顺序图
+
+![安装顺序：不要跳步](images/02-install-flow.svg)
+
+### 3）OAI Provider 关键配置图
+
+![OAI 插件里这样填 CPA](images/03-oai-config.svg)
+
+### 4）Copilot Chat 选择模型图
+
+![Copilot Chat 选择 OAI / CPA 模型](images/04-model-picker.svg)
+
+### 5）排错流程图
+
+![出错时按这个顺序排查](images/05-troubleshooting.svg)
+
 ---
 
 ## 目录
@@ -1464,6 +1492,7 @@ curl http://localhost:8317/v1/models -H "Authorization: Bearer cpa-local-key"
 
 ## 参考链接
 
+- 知乎参考教程：<https://zhuanlan.zhihu.com/p/1951238505524093197>
 - VSCode 官网：<https://code.visualstudio.com/>
 - OAI Compatible Provider for Copilot：<https://marketplace.visualstudio.com/items?itemName=johnny-zhao.oai-compatible-copilot>
 - OAI 插件 GitHub：<https://github.com/JohnnyZ93/oai-compatible-copilot>
