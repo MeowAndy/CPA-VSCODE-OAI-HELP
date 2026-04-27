@@ -1503,3 +1503,19 @@ curl http://localhost:8317/v1/models -H "Authorization: Bearer cpa-local-key"
 
 由 **小凌虾** 整理维护。  
 这份教程的原则是：让完全没碰过 CPA 和 VSCode AI 插件的人，也能照着一步一步跑通。🐾
+
+
+## 参考图片
+
+### 知乎参考长图（用户提供）
+
+> 说明：这张图来自用户提供的知乎文章截图长图。由于当前长图分辨率较低（约 81×1280），其中部分代码/配置文字无法稳定辨认，所以这里先作为参考原图保留，避免误抄配置。
+
+![知乎参考长图：CPA 连接 VSCode OAI 插件](images/reference/zhihu-reference-long-image.jpg)
+
+如果你手里有更高清的原图，可以替换这个文件：
+
+```text
+images/reference/zhihu-reference-long-image.jpg
+```
+
